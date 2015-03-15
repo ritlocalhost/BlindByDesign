@@ -1,0 +1,113 @@
+body {
+
+	margin: 0;
+	padding: 0;
+
+	font-family: "Merriweather";
+	color: #33332D;
+
+	background: #fff;
+
+}
+
+.navList {
+
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+
+	width: 100px;
+	height: 100%;
+
+	position: fixed;
+	top: 7em;
+	left: 3em;
+
+}
+
+.navList li {
+
+	margin-bottom: 2em;
+}
+
+.navList li a {
+
+	text-decoration: none;
+
+	transition: .2s padding ease-in-out;
+
+}
+
+.navList li a:hover {
+
+	padding-left: .7em;
+
+}
+
+.mainContent {
+
+	position: relative;
+	top: 3em;
+	
+	margin: 0;
+	margin-left: 150px;
+	margin-right: 50px;
+
+}
+
+.postSection {
+
+	max-width: 950px;
+
+	margin: 0 auto;
+	margin-bottom: 4em;
+	padding: 3em;
+
+	color: #33332D;
+
+	background: #fff;
+
+}
+
+.postSection .postTitle {
+
+	margin: 0;
+	margin-bottom: 1em;
+	padding: 0;
+
+	font-size: 3.7em;
+
+	font-family: "Merriweather Sans";
+	font-weight: 700;
+
+	text-align: center;
+
+}
+
+.postSection p {
+
+	margin: 1em 0;
+
+	text-indent: 1.2em;
+	line-height: 1.8em;
+	font-size: 1.3em;
+
+	font-weight: 300;
+
+}
+
+.postSection figure {
+
+	float: right;
+
+}
+
+.postSection figcaption {
+
+	padding-top: 1.5em;
+	text-align: center;
+
+	font-weight: 300;
+
+}

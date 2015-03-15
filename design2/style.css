@@ -1,0 +1,95 @@
+body {
+
+	margin: 0;
+	padding: 0;
+
+	font-family: "Lora";
+	color: #404040;
+
+	background: #fff;
+
+	text-align: center;
+
+}
+
+h1, h3 {
+
+	margin: 0;
+	padding: 0;
+
+	font-weight: 400;
+
+	text-align: center;
+}
+
+.authorImg {
+
+	display: block;
+	margin: 0 auto;
+
+	width: 100%;
+
+}
+
+.appleImg {
+
+	display: block;
+	margin:  4em auto;
+
+}
+
+.quote {
+
+	font-size: 1.1em;
+
+}
+
+.headerMain {
+
+	font-size: 1.2em;
+
+}
+
+.headerPunch {
+
+	display: inline-block;
+
+	margin-top: .8em;
+	margin-bottom: 1em;
+
+	font-size: 1.3em;
+	font-weight: 400;
+
+}
+
+.headerPunch a {
+
+	position: relative;
+
+	text-decoration: none;
+	color: #515151;
+
+}
+
+.headerPunch a:before {
+
+	content: "";
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	bottom: -.2em;
+	left: 0;
+	background-color: #515151;
+	visibility: hidden;
+
+	transition: all 0.2s ease-in-out;
+
+}
+
+.headerPunch a:hover:before {
+
+	visibility: visible;
+
+	width: 100%;
+
+}
