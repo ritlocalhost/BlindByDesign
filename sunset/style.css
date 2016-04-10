@@ -1,0 +1,36 @@
+body {
+   background: #8DBBDB;
+}
+
+.sun {
+
+   margin: 0 auto;
+   margin-top: 6em;
+
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+
+   background: #FFE94C;
+
+   transition: transform 2s ease-in-out;
+}
+
+
+.sun:hover {
+
+   transform: translateY(200px);
+
+}
+
+.ocean {
+
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+
+   height: 50%;
+
+   background: #34588A;
+}
