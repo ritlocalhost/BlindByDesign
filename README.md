@@ -1,2 +1,2 @@
-# BlindByDesign-March2015
-A few site designs we used for our Blind By Design competition in March, 2015.
+# BlindByDesign-Spring2016
+Our designs from Blind by Design in April, 2016.
