@@ -1,2 +1,2 @@
-# BlindByDesign-Spring2016
-Our designs from Blind by Design in April, 2016.
+# BlindByDesign
+Our designs from previous years. Each branch represents a previous year. Current designs are located in the master branch.
